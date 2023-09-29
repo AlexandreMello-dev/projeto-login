@@ -2,13 +2,13 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    body {
+    body { 
         background-image: linear-gradient(to top, #4F82C4, #4F82C4);
     }
 
     section#login {
         width: 80vw;
-        height: 70vh;
+        height: 290PX;
     }
 
     section#login > div#imagem{
@@ -23,13 +23,14 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
     body {
         background-image: linear-gradient(to top, #4F82C4, #90ABCE);
     }
 
     section#login {
         width: 920px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -45,5 +46,14 @@
 
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
